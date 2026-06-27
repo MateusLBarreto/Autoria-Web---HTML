@@ -1,0 +1,30 @@
+body{
+    /* body = seletor, é a marcacao qu sera formatada */
+    background-color: aqua;
+    background-color: #232323;
+    background-color: rgb(200,200,200);
+    /* o ultimo atributo usado é o que ficara(CASCATA) */
+    font-family: Arial, Helvetica, sans-serif;
+    /* o acima determina as fontes que seram chamadas para vizualizar o texto escrito em html */
+}
+/* o acima é o boddy, e ele tem a marcacao de seletor padrao do CSS */
+h1{
+    background-color: gray;
+    color: #000000;
+    /* define a cor do texto, com qualquer um dos formatos usados no body */
+    text-align: center;
+    /* alinha o texto
+    pode ser justificado, a direita, a esquerda, ou no centro*/
+}
+h2{
+    background-color: gray;
+    color: #000000;
+    text-align: center;
+}
+li{
+    background-color: white;
+    list-style-type: decimal;
+    /* esse atributo é usado APENAS para os seletores OL, LI e UL */
+    list-style-position: inside;
+    /*  */
+}

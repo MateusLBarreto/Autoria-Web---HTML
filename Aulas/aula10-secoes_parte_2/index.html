@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPA 2026 - NO CNAT</title>
+    <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+    <header>
+        <h1><a href="">COPA 2026 - NO CNAT</a></h1>
+        <nav>
+            <ol>
+                <li><a href="">Transmissao</a></li>
+                <li><a href="">Horários</a></li>
+                <li><a href="">Reserva</a></li>
+                <li><a href="">Parcerias</a></li>
+                <li><a href="">Regras</a></li>
+                <li><a href="">Organizadores</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Transmissão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, beatae? Aliquid odit veniam saepe laudantium voluptas architecto asperiores tenetur nihil, mollitia impedit recusandae sint dicta nobis, unde ex fuga provident?</p>
+        </section>
+        <section>
+            <h2>Regras</h2>
+            <ul>
+                <li>Não pode trazer bebidas alcoolicas</li>
+                <li>Não pode agressão nem vandalismo</li>
+                <li>Serão permitidos apenas alunos e servidores do IFRN</li>
+                <li>Não pode matar, exceto se o alvo estiver com uma camisa de torcida diversa da camisa do Brasil/li>
+            </ul>
+        </section>
+        <section>
+            <h2>Colaboradores</h2>
+            <!-- MARCACAO DE DIV:
+            - nao tem valor semantico!
+            - objetivo: dividir o conteudo para formatar uma area
+            antigamente, para usar o header, usava-se: <div id="header">
+            hoje em dia: <header>
+            visualmente, nao faz diferenca
+            -->
+            <div>
+                <h3>Brownie da Lili</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consequatur facere reprehenderit ex rerum deserunt cumque, repudiandae dolor iure dignissimos quo deleniti possimus quaerat tempora at architecto! Beatae, quos harum.</p>
+            </div>
+            <div class="destaque borda" id="cookies">
+                <!-- esse div esta em duas class ao mesmo tempo( "destaque" e "borda") -->
+                <h3>Cookies de Matheus</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi laborum fuga recusandae voluptates, nihil provident, eius saepe dolorum mollitia iusto amet corporis illo ipsum sint debitis? Eius, harum. At, odio.</p>
+            </div>
+            <div class="destaque">
+                <h3>Sanduiche natural de Kristhyan</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem culpa quas? Mollitia quas nulla commodi iste adipisci fugit voluptatibus esse temporibus, aliquid veniam. Voluptas reiciendis velit quaerat eligendi consectetur!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por SEUNOME, </p>
+    </footer>
+    <!-- 
+    ATRIBUTO CLASS:
+    - pode estar em qualquer marcacao
+    - e um atributo classificador
+    - e epresentado no css com "."
+    - boas praticas
+        - nao usar de forma exagerada, isto é:
+            <li class="itm"> em todos os itens ...
+        - usar um termo coerente como: destaque, principal, local...
+        - nao usar termos genericos, vazios ou redundantes como:  item, cabecalho ...
+    ATRIBUTO ID:
+    - representa um identificador unico aquela marcacao
+    - so pode ter uma marcacao com aquele valor especifico no arquivo, exemplo:
+        se for colocado <li id="atual">, nao pode existir outra MARCACAO com o id="atual"
+    - muito usado para javascript
+    - pode ter em todas as marcacoes
+    - uma marcacao pode ter um atributo de class e um atributo de id
+    - nao pode ter espaco
+    - o valor nao pode comecar com um numero
+    - o id é representado, no css, por "#"
+    -->
+</body>
+</html>

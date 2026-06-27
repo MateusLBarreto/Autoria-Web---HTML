@@ -1,0 +1,30 @@
+body{
+    background-color: white; /*cor de fundo de todo texto que nao esta formatado*/
+    color: black; /*cor de todo texto que nao esta formatado*/
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+}
+h1{
+    background-color: white; /*cor do fundo do texto de h1*/
+    color: black; /*cor do texto de h1*/
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+}
+h2{
+    background-color: white; /*cor do fundo do texto de h2*/
+    color: black; /*cor do texto de h2*/
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+}
+p{
+    background-color: white; /*cor do fundo do texto dos paragrafos*/
+    color: black; /*cor do texto dos paragrafos*/
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+}
+li{
+    background-color: white; /*cor do fundo do texto das listas*/
+    color: black; /*cor do texto das listas*/
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+}

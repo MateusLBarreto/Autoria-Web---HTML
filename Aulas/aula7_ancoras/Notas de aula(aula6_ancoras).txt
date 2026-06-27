@@ -1,0 +1,21 @@
+Para criar varias marcações de um mesmo tipo, é possível escrever a seguinte linha:
+
+ (marcação)*(n de marcações)
+
+Para colocar um texto em cada uma das linhas, pode-se colocar um texto assim:
+
+ (marcação)*(n de marcações) > (o texto)
+
+MARCAÇÃO / TAG NOVA: <a> (ancora)
+	Ela é usada para colocar um link que o usuário pode acessar, e precisa, para colocar um link, do atributo de " href="".
+Ela deve ser usada DENTRO DE UMA TAG.
+
+ATRIBUTO DE " href "(referencia do hyperlink):
+é usado para colocar um link. Ela pode ser usada na tag de " a "do body e em outro locais que podem ter um link.
+
+MARCAÇÃO / TAG NOVA: " hr "
+Ela é responsavel por separar os conteudos de um site.
+
+MARCAÇÃO / TAG: " link "
+É usado para incluir um link na tag de " head ", e ela precisa dos atributos de " stylesheet " e " href "
+STYLESHEEET: é um atributo usado para especificamente referenciar o arquivo css que modifica o arquivo html o qual se refere.

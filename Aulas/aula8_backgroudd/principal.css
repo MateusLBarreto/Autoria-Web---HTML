@@ -1,0 +1,34 @@
+body{
+    /* background-image:url(background.png) */
+    /* uma imagem de background é SEMPRE DECORATIVA
+    isto é, nao é INFORMACIONAL
+    para imagenss informacionais, eé necessario usar a marcacao de IMG
+    */
+    background-image: url(bg-tile.png);
+    /* posso aplicar background image em QUALQUER MARCACAO */
+    background-repeat: repeat-y;
+    /* repeticao
+    repeat-x = repeticao no eixo x
+    repeat-y = repeticao no eixo y 
+    */
+    background-position: right
+    /* posicao da imagem de plano de fundo: left, right, center o um valor */
+}
+h1{
+    margin: 0; /*ESPACAMENTO EXTERNO*/
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;/*size: cuidado pq aqui tu pode fazer com que a imagem fique com uma escala ou pequena ou muito grande */
+    text-align: center;
+    padding: 5rem; /*ESPACAMENTO INTERNO*/
+}
+h1 a{ /* formata a ancora dentro de h1*/
+    color: white;
+    text-decoration: none;
+}
+a:hover{ /*SUBCLASSE do css - efeito de 'passar o mouse'*/
+    background: rgb(216, 246, 246);
+}
+/* a:link
+a:active
+a:visited */

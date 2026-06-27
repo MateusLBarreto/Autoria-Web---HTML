@@ -1,0 +1,18 @@
+Notas de aula - aula 3:
+COLOCADOS NO (<body></body>):
+(<h1></h1>) = heading 1
+É usado para o titulo de um site.
+(<h2></h2>) = heading 2:
+Pode ser usado para um subtítulo ou para uma seção. Esse h vai até 6.
+(<p></p>) = paragrafo:
+Usado para um paragrafo.
+(<ol></ol>) = ordered list
+Lista que organiza seus itens com uma ordem especifica.
+(<ul></ul>) = unordered list
+Lista que não organiza seus itens.
+	(<li></li>) = list item. É usado para colocar itens na lista.
+
+Regra de sixtaxe: dentro da marcação de ol e ul, so pode ter a marcação de li. Isto é, se quiser colocar outra marcação, precisa ser dentro do li.
+Na lista ordenada (ol), a ordem é feita pelo desenvolvedor.
+
+O site validator.w3.org verifica se existem erros de SINTAXE e SOMENTE DE SINTAXE! Ele NAO vai verificar sua SEMANTICA ou BOAS PRATICAS.

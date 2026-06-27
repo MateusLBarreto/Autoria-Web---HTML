@@ -1,0 +1,12 @@
+Usar o "html:5" para fazer uma template básica de um site
+	Quando se faz isso, deve-se mudar a linguagem, já que a língua 
+CSS : é usado para estilizar o site para qual ele foi feito.
+Ele pode ser colocado ou dentro ou fora do arquivo "index".
+Comentário em CSS : (ctrl + ;)
+	O body é a marcação de seletor, assim sendo a marcação que sera formatada, e ele é usado para alterar tudo em relação ao body do html.
+
+	O h1, em CSS, afeta o que esta dentro do h1 do html.
+	O h2, em CSS, afeta o que esta dentro de TODOS OS h2 do html.
+	O li, em CSS, afeta o que esta dentro do li no html.
+		Dentro do li, do ol e do ul(CSS), pode-se colocar os atributos da família list-style, ou seja:
+			list-style-(alguma coisa)

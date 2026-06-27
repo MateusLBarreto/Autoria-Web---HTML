@@ -1,0 +1,9 @@
+	Pode-se usar, na marcação de body, o "link" para ter um atalho para a tag de link e a tag de href, a qual é usada para se referir a um arquivo externo ao index.html.
+	Pode-se usar o figma para criar imagens que podem ser usadas em sites, já que, ao exportar uma imagem nesse site, essa pode estar na extensão ".png"
+	Para aplicar uma imagem a um site, deve-se usar o css do arquivo html dentro de um seletor, como o list-style-image, o qual so pode ser usado em uma lista.
+	A imagem deve ser um png ou um formato compatível, como: jpeg, jpg, gif, jif ...
+
+	A marcação "figure" é usado para inserir uma imagem dentro do site.
+	Ela é similar a "-image" no css, no entanto, ela é usada dentro do html, enquanto os "-image" são usados no css.
+
+	A marcação "img" pode ser usada para incluir uma imagem conteudista no html, ou seja, uma imagem qu contem uma informação e que não é puramente decorativa.

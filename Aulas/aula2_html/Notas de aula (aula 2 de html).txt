@@ -1,0 +1,16 @@
+Notas de aula (aula 2 de html):
+	Sintaxe:
+	Semântica:
+	Boas praticas:
+Atributos: são características do arquivo html, como a linguagem, a qual tem um valor.(definida por 'lang="{valor}"')
+A tag/ marcação " meta " não tem marcação de fechamento e so serve para dar atributos.
+Estrutura de uma tag:
+
+	<{tag} {atributo}="{valor}">
+Ex:
+ <meta name="author">
+O valor " keywords " é usado para demarcar as palavras-chave para os robôs de busca. 
+O valor " description " é a descrição  que a parece no site.
+O valor " utf-8 " é usado para acentuação.
+O valor " author " é usado para mostrar o nome do autor SOMENTE NO CÓDDIGO.
+O atributo " content " é usado para colocar o conteúdo de um valor, como o valor " author " 

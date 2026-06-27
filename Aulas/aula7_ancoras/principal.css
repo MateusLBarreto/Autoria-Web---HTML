@@ -1,0 +1,17 @@
+body {
+    background-color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    /* numero inteiro + unidade, a unidade pode ser px, eem, rem, etc...
+    rem é o masi responsivo. */
+}
+li a{ /* seletor especifico*/
+    display:inline-block;
+    margin: 0 1rem; 
+    /* quando tem 2 valores, 1o valor é emcima e embaixo, segundo valor é pra esquerda e direita*/
+    color: white;
+}
+a:hover {
+    color: blueviolet;
+    /* hover: é realizado quando o mouse esta emcima do texto */
+}

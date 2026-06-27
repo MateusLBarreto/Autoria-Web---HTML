@@ -1,0 +1,17 @@
+/* 
+representação do class = "."
+representacao do id = "#"
+é possivel usar apenas ".borda" ou "div.borda", porem sao diferentes
+*/
+section div{
+    padding: 2rem;
+}
+div.borda{
+    border: 1px solid black
+}
+div.destaque{
+    background-color: aquamarine;
+}
+div#cookies{
+    text-align: center;
+}
