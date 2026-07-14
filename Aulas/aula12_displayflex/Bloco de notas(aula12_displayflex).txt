@@ -1,0 +1,13 @@
+DISPLAY: FLEX;
+
+- usado para diagramar os elementos contidos no container que o display; flex foi usado;
+- ao aplicar o display: flex no container, todas as marcações ficarão, por padrão, lado a lado;
+- similar ao display: inline-block, as marcacoe ficam uma do lado da outra. so que no display: flex;, temos MUITO MAS configs
+
+flexbox.help - site útil para o display: flex;
+
+para aplicar um css a uma marcação com id, pode-se fazer assim:
+
+#(valor do id){ ... }
+(marcacao)#(valor da id){ ... }
+
