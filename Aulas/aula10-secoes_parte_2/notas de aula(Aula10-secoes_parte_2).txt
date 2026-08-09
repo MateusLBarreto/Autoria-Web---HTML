@@ -1,0 +1,6 @@
+MARCACOES NOVAS
+
+ARTICLE : representa o conteudo especifico da pagina "interna"
+ASIDE : e uma marcacao opcional e representa o conteudo relacionado ao conteudo especifico da pagina,
+mas que nao e o conteudo principal (tipo uma explicacao de algo ou a fonte de uma imagem)
+Pode ser usado para links relacionados, anuncios, etc.
