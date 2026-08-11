@@ -1,0 +1,19 @@
+table{
+    background-color: cyan;
+    border-collapse: collapse;
+    /* 
+    atributo especifico para tabelas 
+    tira os espacamentos entre as celulas
+    */
+}
+table td{
+    padding: 1rem;
+}
+table td:nth-child(2){
+    /* 
+    odd - impares
+    even - pares
+    */
+    background-color: darkcyan;
+    font-weight: bold;
+}
